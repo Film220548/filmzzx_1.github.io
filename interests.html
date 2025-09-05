@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="th" data-bs-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>สิ่งที่กำลังสนใจ - Web Resume</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar (เหมือนหน้าอื่น) -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html"><i class="bi bi-person-badge me-2"></i>Web Resume</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain"><span class="navbar-toggler-icon"></span></button>
+      <div id="navMain" class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" data-page="index.html" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" data-page="profile.html" href="profile.html">ประวัติส่วนตัว</a></li>
+          <li class="nav-item"><a class="nav-link" data-page="education.html" href="education.html">ประวัติการศึกษา</a></li>
+          <li class="nav-item"><a class="nav-link" data-page="interests.html" href="interests.html">สิ่งที่กำลังสนใจ</a></li>
+          <li class="nav-item"><a class="nav-link" data-page="work.html" href="work.html">ประวัติการทำงาน</a></li>
+          <li class="nav-item"><a class="nav-link" data-page="awards.html" href="awards.html">รางวัลและผลงาน</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container container-page">
+    <header class="fx-reveal">
+      <h2 class="mb-0"><i class="bi bi-fire me-2"></i>สิ่งที่กำลังสนใจ</h2>
+      <p class="text-muted-2 mb-0">สิ่งที่ผมกำลังโฟกัสตอนนี้ + แผนถัดไป (Next) + อยากลอง (Explore)</p>
+      <hr class="divider">
+    </header>
+    </div>
+
+    <!-- แถว: ตอนนี้ (Now) -->
+    <section class="eg-shelf">
+      <div class="head">
+        <h4 class="mb-0"><i class="bi bi-lightning-charge me-2"></i>Now</h4>
+      </div>
+      <div class="row g-3">
+        <!-- การ์ดตัวอย่าง เปลี่ยนข้อความตามจริงได้ -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card p-3 fx-reveal fx-gradient-border" data-tag="web">
+            <div class="d-flex align-items-center justify-content-between">
+              <div class="fw-semibold"><i class="bi bi-window-sidebar me-2"></i>Ducati Superleggera V4R</div>
+              <span class="badge badge-price">motorcycle</span>
+            </div>
+            <p class="text-muted-2 mb-2">เทคโนโนลยี, ความแรง</p>
+            <div class="progress">
+              <div class="progress-bar" style="width: 70%">70%</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card p-3 fx-reveal fx-gradient-border" data-tag="devops">
+            <div class="d-flex align-items-center justify-content-between">
+              <div class="fw-semibold"><i class="bi bi-gear-wide-connected me-2"></i>เชียงใหม่</div>
+              <span class="badge badge-price">ท่องเที่ยว</span>
+            </div>
+            <p class="text-muted-2 mb-2">ขับมอเตอร์ท่องเที่ยวในจังหวัดเชียงใหม่</p>
+            <div class="progress">
+              <div class="progress-bar" style="width: 50%">50%</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card p-3 fx-reveal fx-gradient-border" data-tag="game">
+            <div class="d-flex align-items-center justify-content-between">
+              <div class="fw-semibold"><i class="bi bi-controller me-2"></i>Roblox: Information Technology Saraburi Technical College</div>
+              <span class="badge badge-price">Game/Roblox</span>
+            </div>
+            <p class="text-muted-2 mb-2">พัฒนาเกม</p>
+            <div class="progress">
+              <div class="progress-bar" style="width: 30%">30%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- แถว: แผนถัดไป (Next) -->
+    <section class="eg-shelf">
+      <div class="head">
+        <h4 class="mb-0"><i class="bi bi-flag me-2"></i>Next</h4>
+      </div>
+      <div class="row g-3">
+        <div class="col-md-6 col-lg-4">
+          <div class="card p-3 fx-reveal fx-gradient-border" data-tag="hw">
+            <div class="fw-semibold"><i class="bi bi-cpu me-2"></i>Server Lab</div>
+            <p class="text-muted-2 mb-2">จัดเครื่องทดสอบ: Docker,Gitlab, Jenkins</p>
+            <div class="progress">
+              <div class="progress-bar" style="width: 20%">20%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- แถว: อยากลอง (Explore) -->
+    <section class="eg-shelf">
+      <div class="head">
+        <h4 class="mb-0"><i class="bi bi-compass me-2"></i>Explore</h4>
+      </div>
+    <div class="eg-track fx-reveal" id="shelf-explore">
+
+  <a class="eg-card tilt fx-gradient-border" 
+     href="https://greensock.com/gsap/" target="_blank" rel="noopener">
+
+    <img class="cover" src="images/web.png" alt="">
+    <div class="body">
+      <div class="small text-muted">Web / UI</div>
+      <div class="fw-semibold">My Website</div>
+    </div>
+  </a>
+
+  <a class="eg-card tilt fx-gradient-border"
+     href="https://www.roblox.com/share?code=0130244ab641c54db311f4c7aaaf0daf&type=ExperienceDetails&stamp=1757049814774"
+     target="_blank" rel="noopener">
+
+    <img class="cover" src="images/it.png" alt="">
+    <div class="body">
+      <div class="small text-muted">Game</div>
+      <div class="fw-semibold">Roblox: Information Technology Saraburi Technical College</div>
+    </div>
+  </a>
+
+</div>
+
+    </section>
+
+    <!-- ปุ่มย้อนกลับ -->
+    <div class="mt-4 fx-reveal">
+      <a href="index.html" class="btn btn-outline-light"><i class="bi bi-arrow-left me-2"></i>กลับไปหน้า Home</a>
+    </div>
+  </main>
+
+  <button id="backToTop" class="btn btn-accent back-to-top"><i class="bi bi-arrow-up"></i></button>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
