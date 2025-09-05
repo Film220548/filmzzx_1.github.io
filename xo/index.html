@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="th" data-bs-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>เกม XO</title>
+  <link href="../assets/css/style.css" rel="stylesheet"><!-- reuse theme colors -->
+  <link href="style.css" rel="stylesheet"><!-- xo specific -->
+</head>
+<body>
+  <div class="xo-wrap">
+    <header class="xo-head">
+      <h1>เกม XO</h1>
+      <div id="status" class="status">ถึงตา: X</div>
+    </header>
+
+    <div id="board" class="board" aria-label="ตารางเกม XO"></div>
+
+    <div class="xo-actions">
+      <button class="btn-accent" id="btnReset">เริ่มใหม่</button>
+      <a class="btn-outline" href="../index.html">← กลับหน้า Home</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
